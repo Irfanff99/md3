@@ -156,9 +156,9 @@ async function startZxyn() {
                 }
 
                 if (anu.action == 'add') {
-                    zxyn.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Hai Kak @${num.split("@")[0]}\nSelamat Datang Di Grup ${metadata.subject}\n\nIntro Dulu Yuk\n\n➪ Nama:\n➪ Umur:\n➪ Askot:\n\nJangan Lupa Baca Dan Patuhi Peraturan Yang Ada` })
+                    zxyn.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Nambah beban aja lu bang @${num.split("@")[0]}\nYaudah deh semoga betah di grup ${metadata.subject}\n\nIntro Dulu Yuk\n\n➪ Nama:\n➪ Umur:\n➪ Askot:\n\nJangan Lupa Baca Dan Patuhi Peraturan Yang Ada` })
                 } else if (anu.action == 'remove') {
-                    zxyn.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `@${num.split("@")[0]} Keluar Dari Grup ${metadata.subject}` })
+                    zxyn.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Akhirnya Beban berkurang @${num.split("@")[0]}🗿` })
                 } else if (anu.action == 'promote') {
                     zxyn.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `@${num.split('@')[0]} Promote From ${metadata.subject}` })
                 } else if (anu.action == 'demote') {
